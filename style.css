@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+audio{
+    width: 10%;
+    position: sticky;
+    left: 100%;
+    top: 100%;
+    
+}
+
+
+marquee {
+    background-color: #333333;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 25px;
+}
+
+
+
+nav ul {
+    display: flex;
+    gap: 29px;
+    margin-left: 60px;
+
+
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+nav li {
+    list-style: none;
+    font-size: 15px;
+    color: #556270;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+
+.logo {
+
+    width: 120px;
+    margin: 10px 30px;
+    position: fixed;
+    left: 17%;
+}
+
+.navbar {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    height: 80px;
+    
+}
+
+header {
+    background-color: white;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+
+}
+
+
+.fimg {
+
+    width: 100%;
+    height: 65vh;
+    background-position: top;
+    background-size: cover;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5)),url(https://paultechsoftwareservices.com/upload/slider_884923_1760346019.jpg);
+}
+
+.mtext {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 47vh;
+    gap: 25px;
+    justify-content: center;
+}
+
+.mtext h2 {
+    font-size: 50px;
+    font-family: "poppins";
+}
+
+.mtext {
+    font-size: 9px;
+}
+
+button {
+    background-color: #ff9835;
+    font-size: 14px;
+    padding: 14px 32px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    border: none;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+
+button:hover {
+    background-color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.emp {
+    background-color: orange;
+    padding: 10px;
+    margin-top: -5px;
+    border-radius: 8px;
+    font-size: 13px;
+    
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.btext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    gap: 20px;
+
+}
+
+.btext h2 {
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.btext p {
+    text-align: center;
+    display: block;
+    margin: 0 20%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "poppins";
+
+}
+
+.ico {
+    width: 90px;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0 0 10px 5px grey;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+    margin-top: 4%;
+    background-color: #f8f9fa;
+    height: 300px;
+}
+
+.ico:hover {
+    box-shadow: 0 0 15px 6px #dba10d;
+      transform: scale(1.2);
+}
+
+.nav-item{
+    color: #ff9835;
+    text-decoration: none;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.nav-item2{
+    color: #556270;
+    text-decoration: none;
+}
+.nav-item2:hover{
+    color:#ff9835;
+    text-decoration: underline;
+
+}
+.nav-item3{
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+.nav-item3:hover{
+    text-decoration: underline;
+}
+
+main{
+    height: 150vh;
+}
+
+
+/* ==========================
+   1200px
+========================== */
+@media (max-width:1200px){
+
+.logo{
+    left:8%;
+}
+
+nav ul{
+    gap:18px;
+    margin-left:170px;
+}
+
+nav li{
+    font-size:14px;
+}
+
+.mtext h2{
+    font-size:42px;
+}
+
+.mtext h3{
+    font-size:18px;
+}
+
+.icons{
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+}
+
+/* ==========================
+   992px
+========================== */
+@media (max-width:992px){
+
+.logo{
+    width:100px;
+    left:4%;
+}
+
+nav ul{
+    gap:12px;
+    margin-left:120px;
+}
+
+nav li{
+    font-size:13px;
+}
+
+.emp{
+    padding:8px;
+}
+
+.mtext{
+    bottom:42vh;
+}
+
+.mtext h2{
+    font-size:34px;
+}
+
+.btext{
+    top:75%;
+}
+
+.btext p{
+    margin:0 8%;
+}
+
+.icons{
+    flex-wrap:wrap;
+    height:auto;
+    padding:40px 0;
+}
+
+.ico{
+    width:80px;
+}
+
+audio{
+    width:180px;
+}
+
+}
+
+/* ==========================
+   768px
+========================== */
+@media (max-width:768px){
+
+.logo{
+    position:static;
+    width:120px;
+    margin:auto;
+}
+
+.navbar{
+    flex-direction:column;
+    height:auto;
+    padding:10px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:20px 0;
+    gap:15px;
+}
+
+.fimg{
+    height:50vh;
+}
+
+.mtext{
+    bottom:35vh;
+    text-align:center;
+    padding:0 20px;
+}
+
+.mtext h2{
+    font-size:28px;
+}
+
+.mtext h3{
+    font-size:16px;
+}
+
+.btext{
+    position:static;
+    margin-top:-80px;
+    padding:30px;
+}
+
+.btext h2{
+    font-size:24px;
+}
+
+.btext p{
+    margin:0;
+    font-size:15px;
+}
+
+.icons{
+    gap:25px;
+}
+
+.ico{
+    width:75px;
+}
+
+audio{
+    width:150px;
+}
+
+main{
+    height:auto;
+}
+
+}
+
+/* ==========================
+   576px
+========================== */
+@media (max-width:576px){
+
+marquee{
+    font-size:12px;
+}
+
+nav ul{
+    gap:10px;
+}
+
+nav li{
+    font-size:12px;
+}
+
+.emp{
+    font-size:11px;
+}
+
+.fimg{
+    height:42vh;
+}
+
+.mtext{
+    bottom:30vh;
+}
+
+.mtext h2{
+    font-size:22px;
+}
+
+.mtext h3{
+    font-size:14px;
+}
+
+button{
+    padding:10px 22px;
+    font-size:13px;
+}
+
+.btext h2{
+    font-size:20px;
+}
+
+.btext p{
+    font-size:14px;
+}
+
+.icons{
+    flex-direction:column;
+    height:auto;
+    gap:30px;
+    padding:30px 0;
+}
+
+.ico{
+    width:70px;
+}
+
+audio{
+    width:120px;
+}
+
+}

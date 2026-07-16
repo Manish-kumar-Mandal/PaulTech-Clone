@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(https://img.freepik.com/free-photo/paper-clips-keyboard-laptop-spiral-notepad-sticky-notes-white-desk-with-space-writing-text_23-2148041896.jpg?t=st=1735975323~exp=1735978923~hmac=18fc537…&w=740);
+    background-size: cover;
+    background-position: right center;
+    /* background-size: 110%; */
+    background-repeat: no-repeat;
+    font-family: "poppins";
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 30%;
+}
+
+.frm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 26px;
+
+}
+
+h3 {
+    margin-right: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    bottom:-12px;
+}
+
+input {
+    width: 20%;
+    height: 37px;
+    font-size: 20px;
+    border: 1px solid #ced4da;
+    transition: 0.5s;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123 ,255 ,.25);
+}
+
+button{
+    padding: 10px 170px;
+    border: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(28, 94, 237, 0.948);
+}
+
+button:hover{
+    background-color: rgba(31, 31, 233, 0.799);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+footer h4{
+    color: orange;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+h4:hover{
+    text-decoration: underline;
+}
+
+/* ==========================
+   Laptop (1200px)
+========================== */
+@media (max-width:1200px){
+
+.head{
+    margin-right:20%;
+}
+
+input{
+    width:35%;
+}
+
+button{
+    padding:10px 130px;
+}
+
+h3{
+    margin-right:260px;
+}
+
+}
+
+/* ==========================
+   Tablet (992px)
+========================== */
+@media (max-width:992px){
+
+.head{
+    margin-right:0;
+    margin-top:40px;
+}
+
+.logo{
+    width:170px;
+}
+
+.frm{
+    margin-top:40px;
+}
+
+input{
+    width:45%;
+}
+
+button{
+    padding:10px 120px;
+    font-size:18px;
+}
+
+h3{
+    margin-right:220px;
+}
+
+footer{
+    margin-top:70px;
+    text-align:center;
+    padding:0 20px;
+}
+
+footer h4{
+    font-size:16px;
+}
+
+}
+
+/* ==========================
+   Mobile (768px)
+========================== */
+@media (max-width:768px){
+
+body{
+    background-position:center;
+}
+
+.head{
+    margin-top:30px;
+}
+
+.logo{
+    width:150px;
+}
+
+.frm{
+    margin-top:35px;
+}
+
+h2{
+    font-size:24px;
+}
+
+h3{
+    margin-right:0;
+    width:90%;
+    max-width:320px;
+    text-align:left;
+}
+
+input{
+    width:90%;
+    max-width:320px;
+}
+
+button{
+    width:90%;
+    max-width:320px;
+    padding:12px;
+    font-size:18px;
+}
+
+footer{
+    margin-top:50px;
+    padding:0 15px;
+    text-align:center;
+}
+
+footer h4{
+    font-size:15px;
+}
+
+}
+
+/* ==========================
+   Small Mobile (480px)
+========================== */
+@media (max-width:480px){
+
+.logo{
+    width:120px;
+}
+
+h2{
+    font-size:22px;
+}
+
+h3{
+    font-size:14px;
+}
+
+input{
+    height:42px;
+    font-size:16px;
+}
+
+button{
+    font-size:16px;
+    padding:10px;
+}
+
+footer h4{
+    font-size:13px;
+    line-height:22px;
+}
+
+}
